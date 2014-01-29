@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Paypal Interview Application">
+    <meta name="author" content="Paypal Singapore">
+
+    <link rel="shortcut icon" href="https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico" />
+    <link rel="apple-touch-icon" href="https://www.paypalobjects.com/en_US/i/pui/apple-touch-icon.png" />
+
+    <title>Paypal Interview Application</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="https://www.paypalobjects.com/webstatic/i/sparta/logo/logo_paypal_106x29.png" height="18px" border="0" alt="Paypal Logo"> | Interview App</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="myschedule.html">My Schedule</a></li>
+                  <li><a href="allschedule.html">All Schedule</a></li>
+              </ul>
+            </li>
+            <li><a href="candidate.html">Candidate</a></li>
+            <li><a href="requisition.html">Requisition Open</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="role.html">Role</a></li>
+                <li><a href="#">Panel</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Interview</li>
+                <li><a href="question.html">Questions</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./">Logout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-12">
+
+              <div class="widget">
+                <div class="widget-head">
+                  Feedback on 2014-01-14
+                </div>
+                <div class="widget-content">
+                  <div class="padd">
+
+                    <div class="row">
+                      <div class="col-sm-12 form-horizontal">
+
+                        <div class="form-group">
+                          <label class="col-sm-3 col-md-3 col-lg-2 control-label">Role</label>
+                          <div class="col-sm-9 col-md-9 col-lg-10">
+                            <input type="text" class="form-control input-sm" placeholder="Software Engineer" readonly="">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="col-sm-3 col-md-3 col-lg-2 control-label">Candidate</label>
+                          <div class="col-sm-9 col-md-9 col-lg-10">
+                            <input type="text" class="form-control input-sm" placeholder="Ravi Kumar" readonly="">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="col-sm-3 col-md-3 col-lg-2 control-label">Panel</label>
+                          <div class="col-sm-9 col-md-9 col-lg-10">
+                            <input type="text" class="form-control input-sm" placeholder="Chang Sau Sheong" readonly="">
+                          </div>
+                        </div>
+
+
+
+                      <div class="form-group">
+                          <label class="col-md-1 col-lg-2 control-label">Overall Rating</label>
+                          <div class="col-lg-8">
+                              <textarea rows="5" class="form-control focus"></textarea>
+                          </div>
+                        </div>
+
+
+
+                      <div class="form-group">
+                          <label class="col-md-1 col-lg-2 control-label">Overall Score</label>
+                          <div class="col-lg-8">
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                                    <div class="col-lg-offset-1 col-lg-9">
+                                      <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                  </div>
+
+
+                      </div>
+                    </div>
+
+
+                    <hr>
+                    <div class="row">
+                      <div class="col-sm-12">
+
+                        <div class="tabbable inline tabs-left">
+                          <ul class="nav nav-tabs tab-green" id="myTab3">
+                            <li class="active">
+                              <a data-toggle="tab" href="#panel_tab4_example1">
+                                HTML
+                              </a>
+                            </li>
+                            <li class="">
+                              <a data-toggle="tab" href="#panel_tab4_example2">
+                                Java
+                              </a>
+                            </li>
+                            <li class="">
+                              <a data-toggle="tab" href="#panel_tab4_example3">
+                                Data Structure
+                              </a>
+                            </li>
+                          </ul>
+
+                          <div class="tab-content">
+                            <div id="panel_tab4_example1" class="tab-pane active">
+
+                            <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                              <div class="panel-body">
+
+                                <form class="form-horizontal" role="form" method="get" action="/feedback_save">
+
+                                   <input type="hidden" name="question_id" value="1">
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Question</label>
+                                    <div class="col-lg-8">
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Expected Answer</label>
+                                    <div class="col-lg-8">
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                        <br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Feedback</label>
+                                    <div class="col-lg-8">
+                                      <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                  </div>
+
+                      <div class="form-group">
+                          <label class="col-md-1 col-lg-2 control-label">Rating Score</label>
+                          <div class="col-lg-8">
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </div>
+
+                                  <div class="form-group">
+                                    <div class="col-lg-offset-1 col-lg-9">
+                                      <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                  </div>
+
+                                </form>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. What is Twitter Bootstrap?</a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+
+                                <form class="form-horizontal" role="form">
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Question</label>
+                                    <div class="col-lg-8">
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Expected Answer</label>
+                                    <div class="col-lg-8">
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                        <br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Feedback</label>
+                                    <div class="col-lg-8">
+                                      <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                  </div>
+
+                      <div class="form-group">
+                          <label class="col-md-1 col-lg-2 control-label">Rating Score</label>
+                          <div class="col-lg-8">
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </div>
+
+                                  <div class="form-group">
+                                    <div class="col-lg-offset-1 col-lg-9">
+                                      <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                  </div>
+
+                                </form>
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. What is CSS?</a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+                            </div>
+
+                            <div id="panel_tab4_example2" class="tab-pane">
+                                <form class="form-horizontal" role="form">
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Question</label>
+                                    <div class="col-lg-8">
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Expected Answer</label>
+                                    <div class="col-lg-8">
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                        <br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-2 col-lg-2 control-label">Feedback</label>
+                                    <div class="col-lg-8">
+                                      <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                  </div>
+
+                      <div class="form-group">
+                          <label class="col-md-1 col-lg-2 control-label">Rating Score</label>
+                          <div class="col-lg-8">
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </div>
+
+                                  <div class="form-group">
+                                    <div class="col-lg-offset-1 col-lg-9">
+                                      <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                  </div>
+
+                                </form>
+                            </div>
+
+
+                            <div id="panel_tab4_example3" class="tab-pane">
+                              <p>
+                                Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+
+                  </div> <!-- padd -->
+                </div>
+
+              </div>
+
+
+        </div> <!-- /col-lg-4 -->
+      </div> <!-- /row -->
+
+    </div> <!-- /container -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+                <!-- Copyright info -->
+                <p class="copy">Copyright © Paypal 2014 </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
