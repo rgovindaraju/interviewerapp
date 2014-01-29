@@ -61,3 +61,33 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+{>"layouts/master" /}
+
+<h2>{title}</h2>
+<form action="/login", method="post">
+  <div>
+   <tr>
+      <td>Username</td>
+      <td>
+         <select>
+         {#username}
+         <option value="{name}"{@eq key=name value=Raj}  selected="true"{/eq}>
+         {name}
+         </option>
+         {/username}
+         </select>
+      </td>
+   </tr>
+ </div>
+   <br>
+    <div>
+
+   <tr>
+      <td>Password </td>
+      <td><input type="password", name="password"></td>
+   </tr>
+ </div>
+   <br>
+   <input type="submit", name="login" , value="login">
+</form>

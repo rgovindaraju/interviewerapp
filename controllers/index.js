@@ -1,18 +1,14 @@
 'use strict';
 
 
-//var IndexModel = require('../models');
 
+var LoginModel = require('../models/login');
 
 module.exports = function (app) {
-
-    var model = "interviewapp";
-
-
+    var model = new LoginModel();
+    console.log("in route index");
+    console.log(model.title);
     app.get('/', function (req, res) {
-        
-        res.render('index', model);
-        
+        res.render('login', model);
     });
-
 };

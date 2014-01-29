@@ -7,6 +7,8 @@ var kraken = require('kraken-js'),
 
 app.configure = function configure(nconf, next) {
     // Async method run on startup.
+    nconf.host = "localhost";
+    nconf.port = 3000;
     next(null);
 };
 
