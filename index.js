@@ -2,13 +2,11 @@
 
 
 var kraken = require('kraken-js'),
+    passport = require('passport'),
     app = {};
-
 
 app.configure = function configure(nconf, next) {
     // Async method run on startup.
-    nconf.host = "localhost";
-    nconf.port = 3000;
     next(null);
 };
 

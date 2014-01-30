@@ -4,19 +4,17 @@ module.exports = function(sequelize, DataTypes) {
       'Data Structures',
       'Algorithm',
       'Web Architecture',
-      'Class Design',
+      'OOAD',
       'Database',
       'Communication',
       'Teamwork',
+      'Refactoring',
+      'Design Pattern',
+      'Other'
       'Overall'),
-    name: DataTypes.STRING,
+    short_question: DataTypes.STRING,
     full_question: DataTypes.STRING(500),
     model_answer: DataTypes.STRING(500),
-  }, {
-    associate: function(models) {
-      Question.hasMany(models.Feedback);
-    }
   });
- 
   return Question;
 }
